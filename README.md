@@ -1,3 +1,5 @@
+The project moved to: https://github.com/u-t-autonomous/gridsim
+
 # gridsim
 
 2D gridworld simulation, grid world, grid-world, pygame, sim, girdworld, simulation, 2D.
