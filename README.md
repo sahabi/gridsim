@@ -124,14 +124,14 @@ sim.generate_agent_matrix("agent_matrix.txt")
 ```python
 from environment import Simulation
 
-sim = Simulation("config.txt", "matrix.txt")
+sim = Simulation("config.txt")
 
 state = sim.get_state()
 
 done = False
 while not done:
 
-    done, state = sim.move(["matrix", "stay"])
+    done, state = sim.move(["east", "stay"])
         
 sim.generate_agent_matrix("agent_matrix.txt")
 
